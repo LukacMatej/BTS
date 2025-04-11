@@ -4,11 +4,6 @@ import urequests as requests
 import json
 from microdot import Microdot, Response
 
-# Wi-Fi credentials
-SSID = 'Mi 10T Pro'
-PASSWORD = '123456789'
-AI_API_KEY = 'AIzaSyCXhf0yGZX_l1VSkCLoYfL89yNaI-ARbrg'
-
 # Connect to Wi-Fi
 try:
     wlan = network.WLAN(network.STA_IF)
